@@ -1,11 +1,12 @@
 package hu.misi.petclinic.service.map;
 
 import hu.misi.petclinic.model.Owner;
-import hu.misi.petclinic.service.CrudService;
+import hu.misi.petclinic.service.OwnerService;
+import org.springframework.stereotype.Service;
 
 import java.util.Set;
-
-public class OwnerServiceMap extends AbstractMapService<Owner,Long> implements CrudService<Owner,Long> {
+@Service
+public class OwnerServiceMap extends AbstractMapService<Owner,Long> implements OwnerService {
 
     @Override
     public Set<Owner> findAll() {
@@ -30,5 +31,10 @@ public class OwnerServiceMap extends AbstractMapService<Owner,Long> implements C
     @Override
     public Owner save(Owner object) {
         return super.save(object.getId(),object);
+    }
+
+    @Override
+    public Owner findByName(String Name) {
+        return null;
     }
 }

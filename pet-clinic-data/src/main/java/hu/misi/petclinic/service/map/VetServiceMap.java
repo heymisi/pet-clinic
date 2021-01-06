@@ -1,11 +1,12 @@
 package hu.misi.petclinic.service.map;
 
 import hu.misi.petclinic.model.Vet;
-import hu.misi.petclinic.service.CrudService;
+import hu.misi.petclinic.service.VetService;
+import org.springframework.stereotype.Service;
 
 import java.util.Set;
-
-public class VetServiceMap extends AbstractMapService<Vet,Long> implements CrudService<Vet,Long> {
+@Service
+public class VetServiceMap extends AbstractMapService<Vet,Long> implements VetService{
     @Override
     public Set<Vet> findAll() {
         return super.findAll();
