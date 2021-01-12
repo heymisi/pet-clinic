@@ -15,7 +15,7 @@ public class SpecialitySDJpaService implements SpecialityService {
 
     private final SpecialtyRepository specialityRepository;
 
-    public SpecialitySDJpaService(SpecialityService specialityService, SpecialtyRepository specialityRepostiory, SpecialtyRepository specialityRepository) {
+    public SpecialitySDJpaService(SpecialtyRepository specialityRepository) {
         this.specialityRepository = specialityRepository;
     }
 
