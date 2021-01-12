@@ -1,4 +1,4 @@
-package hu.misi.petclinic.service;
+package hu.misi.petclinic.services;
 
 import hu.misi.petclinic.model.Vet;
 

@@ -1,6 +1,6 @@
 package hu.misi.petclinic.controllers;
 
-import hu.misi.petclinic.service.VetService;
+import hu.misi.petclinic.services.VetService;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;

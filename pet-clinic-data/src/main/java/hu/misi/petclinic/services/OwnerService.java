@@ -1,10 +1,10 @@
-package hu.misi.petclinic.service;
+package hu.misi.petclinic.services;
 
 import hu.misi.petclinic.model.Owner;
 
 
 public interface OwnerService extends CrudService<Owner,Long>{
 
-    Owner findByName(String Name);
+    Owner findByLastName(String lastName);
 
 }

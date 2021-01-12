@@ -1,10 +1,10 @@
 package hu.misi.petclinic.bootstrap;
 
 import hu.misi.petclinic.model.*;
-import hu.misi.petclinic.service.OwnerService;
-import hu.misi.petclinic.service.PetTypeService;
-import hu.misi.petclinic.service.SpecialityService;
-import hu.misi.petclinic.service.VetService;
+import hu.misi.petclinic.services.OwnerService;
+import hu.misi.petclinic.services.PetTypeService;
+import hu.misi.petclinic.services.SpecialityService;
+import hu.misi.petclinic.services.VetService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;

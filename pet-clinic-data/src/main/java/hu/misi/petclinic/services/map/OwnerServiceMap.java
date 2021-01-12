@@ -1,10 +1,10 @@
-package hu.misi.petclinic.service.map;
+package hu.misi.petclinic.services.map;
 
 import hu.misi.petclinic.model.Owner;
 import hu.misi.petclinic.model.Pet;
-import hu.misi.petclinic.service.OwnerService;
-import hu.misi.petclinic.service.PetService;
-import hu.misi.petclinic.service.PetTypeService;
+import hu.misi.petclinic.services.OwnerService;
+import hu.misi.petclinic.services.PetService;
+import hu.misi.petclinic.services.PetTypeService;
 import org.springframework.stereotype.Service;
 
 import java.util.Set;
@@ -67,8 +67,9 @@ public class OwnerServiceMap extends AbstractMapService<Owner,Long> implements O
         }
     }
 
+
     @Override
-    public Owner findByName(String Name) {
+    public Owner findByLastName(String lastName) {
         return null;
     }
 }

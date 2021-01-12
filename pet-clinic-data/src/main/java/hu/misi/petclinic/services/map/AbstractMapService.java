@@ -1,4 +1,4 @@
-package hu.misi.petclinic.service.map;
+package hu.misi.petclinic.services.map;
 
 import hu.misi.petclinic.model.BaseEntity;
 
